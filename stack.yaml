@@ -1,0 +1,7 @@
+resolver: lts-9.0
+packages:
+  - .
+extra-deps:
+  - smallcheck-1.1.2
+flags: {}
+extra-package-dbs: []

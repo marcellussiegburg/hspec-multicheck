@@ -1,4 +1,4 @@
-# hspec-multicheck
+# hspec-multicheck [![Build Status](https://travis-ci.org/marcellussiegburg/hspec-multicheck.svg?branch=master)](https://travis-ci.org/marcellussiegburg/hspec-multicheck)
 
 A testing framework for [Haskell](https://www.haskell.org) using [Hspec](http://hspec.github.io).
 Basically the framework is identical to Hspec.

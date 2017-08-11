@@ -15,8 +15,10 @@ matrix:
       addons: {apt: {sources: [hvr-ghc], packages: [ghc-7.10.3, cabal-install-1.24]}}
     - env: BUILD=stack GHC=8.0.2
       compiler: "stack@8.0.2"
+      addons: {apt: {sources: [hvr-ghc], packages: [ghc-8.0.2]}}
     - env: BUILD=stack GHC=7.10.3 ARG="--resolver=lts-6"
       compiler: "stack@7.10.3"
+      addons: {apt: {sources: [hvr-ghc], packages: [ghc-7.10.3]}}
 before_install:
   - case "$BUILD" in
       cabal)
